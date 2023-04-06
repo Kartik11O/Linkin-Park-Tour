@@ -1,0 +1,101 @@
+body{
+    padding:0px;
+    margin:0px;
+    background-color: #000000;
+    box-sizing:border-box;
+    animation: body 3s both;
+}
+
+@keyframes body {
+    0%{
+        opacity: 0;
+    }
+    
+}
+
+#Page3{
+    position: relative;
+    width: clamp(600px,100%,100%);
+    height: clamp(400px,100vh,753px);
+    background-image: url("Wallpaper/Cover.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#nav-bar{
+    position: absolute;
+    top: 0;
+    width: clamp(600px,100%,100%);
+    height: clamp(86px,12vh,86px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--font);
+    color: #fff;
+}
+.box_1_nav{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.box_1_nav a{
+    font-weight: 700;
+    text-decoration: none;
+    color: #000000;
+    margin: 1rem;
+}
+.box_2_nav{
+    width: 35%;
+    height: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    /* border: 2px solid red; */
+}
+.box_2_nav h2{
+    margin-bottom: auto;
+}
+.box_2_nav a{
+    text-decoration: none;
+    color: #fff;
+}
+.box_3_nav{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.box_3_nav a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+
+#container_P3-top{
+    width: clamp(600px,100%,1980px);
+    height: clamp(400px,100vh,753px);
+    position: absolute;
+}
+.H1_P3{
+    font-family: var(--font);
+    font-size: 9.6rem;
+    color: #ffffff;
+}
+#Move{
+    float: left;
+    margin-left: 2rem;
+    align-items: start;
+}
+#Move2{
+    margin-right: 2rem;
+    position: absolute;
+    align-items: start;
+    right: 0;
+    bottom: 0;
+}

@@ -1,0 +1,64 @@
+#Page3_part2{
+    position: relative;
+    width: clamp(600px,100%,100%);
+    height: fit-content;
+    background-color: #000;
+    color: #c41c1c;
+    font-family: var(--font);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container_Page3-Part2{
+    width: clamp(600px,100%,1980px);
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+
+}
+.ALL_BoxP3{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.Contor_box{
+    width: 55vw;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.Contor_box h3{
+    margin-top: 2rem;
+}
+.Adding{
+    font-weight:200;
+    width: 24vw;
+}
+
+.Btn_box{
+    width: 24vw;
+    height: 50%;
+}
+
+.design_btn{
+    background-color: #000;
+    color: #c41c1c;
+    border: 2px solid #c41c1c; ;
+    outline: none;
+    font-family: var(--font);
+    width: clamp(130px,9vw,138px);
+    height: clamp(30px,5vh, 37px);
+    font-size: 1.1rem;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.design_btn:hover{
+    background-color: #c41c1c;
+    color: #000;
+}
